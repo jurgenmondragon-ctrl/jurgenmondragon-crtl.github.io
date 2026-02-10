@@ -10,6 +10,7 @@
               and have CSS
 -->
 <html lang="en"-US><head>
+<link href ="style.css" rel="stylesheet">
 <Title>This is a Medical Registration Page</Title>
 
 </head>
