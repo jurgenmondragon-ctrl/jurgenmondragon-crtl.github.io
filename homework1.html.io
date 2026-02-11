@@ -9,11 +9,20 @@
               in the homework 1 page as the page will capture data, have a little javascript 
               and have CSS
 -->
-<html lang="en"-US><head>
+<html lang="en-US"><head>
 <link href ="style.css" rel="stylesheet">
-<Title>This is a Medical Registration Page</Title>
-
+<title>This is a Medical Registration Page</title>
 </head>
 <body>
+<h2>Health/Medical Registration Form</h2>
+<form>
+<label for="fname">First name:</label>
+<input type="text"id="fname"value="John">
+<label for="mname">Middle name:</label>
+<input type="text"id="mname"value="Iron">
+<label for="lname">Last name:</label>
+<input type="text"id="lname"value="Marston">
+<input type="submit"value="Submit">
+</form>
 </body>
 </html>
