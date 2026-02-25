@@ -9,85 +9,288 @@
               in the homework 1 page as the page will capture data, have a little javascript 
               and have CSS
 -->
-<html lang="en-US"><head>
-<link href ="style.css" rel="stylesheet">
-<title>This is a Medical Registration Page</title>
-</head>
-<body>
-<h2>Health/Medical Registration Form</h2>
-<form>
-<label for="fname">First name:</label>
-<input type="text"id="fname"value="John">
-<label for="mname">Middle Initial:</label>
-<input type="text"id="minitial"value="I">
-<label for="lname">Last name:</label>
-<input type="text"id="lname"value="Marston"><br>
-<br><label for="birthday">Date Of Birth</label>
-<input type="date"id="birthday"name=><br>
-<br><label for="socialsec">Social Security:</label>
-<input type="password"id="socialsec"><br>
-<br><label for="persaddress"> Address 1:</label> 
-<input type="text"id="persaddress"name=address><br>
-<br><label for="persaddresstwo"> Address 2:</label> 
-<input type="text"id="persaddresstwo"name=address><br>
-<br><label for="city">City:</label>
-<input type="text"id="city"name=city>
-<label for="states">State:</label>
-<select id="states"name="states">
-<option value="AL">AL</option>
-<option value="AZ">AZ</option>
-<option value="AR">AR</option>
-<option value="CA">CA</option>
-<option value="CO">CO</option>
-<option value="CT">CT</option>  
-<option value="DE">DE</option>
-<option value="FL">FL</option>
-<option value="GA">GA</option>
-<option value="HI">HI</option>
-<option value="ID">ID</option>
-<option value="IL">IL</option>
-<option value="IN">IN</option>
-<option value="IA">IA</option>
-<option value="KS">KS</option>
-<option value="KY">KY</option>
-<option value="LA">LA</option>
-<option value="ME">ME</option>
-<option value="MD">MD</option>
-<option value="MA">MA</option>
-<option value="MI">MI</option>
-<option value="MN">MN</option>
-<option value="MS">MS</option>
-<option value="MO">MO</option>
-<option value="MT">MT</option>
-<option value="NE">NE</option>  
-<option value="NV">NV</option>
-<option value="NH">NH</option>
-<option value="NJ">NJ</option>
-<option value="NM">NM</option>
-<option value="NY">NY</option>
-<option value="NC">NC</option>
-<option value="ND">ND</option>
-<option value="OH">OH</option>
-<option value="OK">OK</option>
-<option value="OR">OR</option>  
-<option value="PA">PA</option>
-<option value="RI">RI</option>
-<option value="SC">SC</option>
-<option value="SD">SD</option>
-<option value="TN">TN</option>
-<option value="TX">TX</option>
-<option value="UT">UT</option>
-<option value="VT">VT</option>
-<option value="VA">VA</option>
-<option value="WA">WA</option>  
-<option value="WV">WV</option>
-<option value="WI">WI</option>
-<option value="WY">WY</option>    
-</select> 
-<label for="zip">ZIP Code:</label>
-<input type="text"id="zip"><br>
-<br><label for="email">Email Address:</label>  
-<input type="email"id="email"value="name@domain.tld"><br>
+<html lang="en-US">
+    <head>
+      <link href ="style.css" rel="stylesheet">
+
+      <!-- displays text in the browser's tab-->
+      <title>This is a Medical Registration Page</title>
+    </head>
+    <body>
+        <header>
+             <table width="100%'>
+                 <tr> 
+                    <td valign="top" align="left" width="20%"> 
+                    <!--  image vid min 3:08-->
+                    </td>
+  
+                   <td>
+                     
+                   </td>
+    
+                   <td>
+                     
+                   </td>
+                 </tr>
+             </table>
+         </header>
+<hr>
+<!-- Form starts here -->
+<!-- form action="thanyou.hmtl"-->
+    <form>
+      <center>
+         <div class="format">
+          <table>
+            <tr>
+              <th colspan="4"> Create Patient Portal Account</th>
+            </tr>
+            <!--patient's information section of form starts here-->
+
+            <!-- Patient's name F M L-->
+            <tr>
+            <td class="td1"><label for="Fname">First name:</label></td>
+            <td>
+                <input type="text"              
+                id="Fname"
+                maxlength="30"
+                title="please enter your first name"
+                required
+                placeholder="John"
+                />  
+            </td>
+        </tr>
+        <tr>
+              <td class="td1"<label for="Mname">Middle Initial:</label>
+            <td>
+                <input type="text"
+                 id="Mname"
+                 maxlength="1"
+                 title="Please enter your middle initial" 
+                 placeholder="W"
+                 />
+          </td> 
+        </tr>
+            <td class="td1"><label for="lname">Last name:</label></td>
+            <td>
+                 <input type="text"
+                  id="lname"
+                   maxlength="30"
+                   title="Please enter your last name"
+                   required
+                   placeholder="le"
+                   />
+            </td>
+          </tr>
+
+          <!--Gender or sex-->
+
+           <tr>
+             <td class="td1"><label for="psex">Patient's Sex</label></td>
+             <td>
+                 <input type="radio"
+                  id="s1"
+                  name="sex"
+                  value="Male">
+                 />
+                 Male
+  
+                <input 
+                type="radio"
+                id="s2"
+                name="sex"
+                value="Female"
+                />
+                Female
+  
+                <input 
+                type="radio"
+                id="s3"
+                name="sex"
+                value="Other"> 
+                />
+                Other
+             </td>
+           </tr>
+
+          <!-- date of birth-->  
+
+          <tr>
+             <td class="td1"<label for="dob">Date Of Birth</label></td>
+          <td>
+          <input type="date"
+          id="dob"
+          name="dob"
+          />  
+         </td>
+      </tr>
+
+    <tr>  <td class="td1"><label for="ssn">Social Security:<label</td>
+        <td>
+           <input 
+            type="password"
+             id="socialsec"
+              minlength="11"
+             maxlength="11"
+              name="ssn"
+              id="ssn"
+              required
+             title="Please enter your social security number DO NOT ENTER YOUR REAL SSN"
+             placeholder="123-12-1234"
+              />
+        </td>
+    </tr>
+      
+      <tr>
+        <th colspan="4"<hr></th> <!-- This line allows better organization-->
+      </tr>
+          
+      <tr>
+        <th colspan="4">Patient contact information</th>
+      </tr>
+      <!-- Address-->
+
+      <tr>
+        <td class="td1"><label for="address1"> Address 1:</label></td>
+        <td>
+            <input type="text"
+            name="address1" 
+            id="address1"
+            maxlength="40"
+            title="please enter your address"
+            required
+            placeholder=" What is your address"
+            />
+        </td>
+      </tr>
+      
+      <tr>
+        <td class="td1"><label for="address2"> Address :</label> 
+        <td>
+            <input type="text"
+            id="address2"
+            name=address2
+            maxlength="40"
+            title="please enter your address"
+            required
+            placeholder=" What is your address"
+            > 
+        </td>
+      </tr>
+      
+      <tr>
+        <td class="td1"><label for="city">City:</label>
+        <td>
+         <input type="text"
+          id="city"
+           name=city
+           maxlength="40"
+           title="Please enter your city of residence"
+           required
+           placeholder="What ever city you choose"
+           />
+        </td>
+      </tr>
+
+      <!-- All the states -->
+     <tr>
+       <td><label for="states">State:</label>  </td>
+         <td>
+             <select>
+                    <option selected disabled>Please Select One</option>
+                    <option value="AL">AL</option>
+                    <option value="AZ">AZ</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>  
+                    <option value="DE">DE</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="IA">IA</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="ME">ME</option>
+                    <option value="MD">MD</option>
+                    <option value="MA">MA</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MS">MS</option>
+                    <option value="MO">MO</option>
+                    <option value="MT">MT</option>
+                    <option value="NE">NE</option>  
+                    <option value="NV">NV</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NY">NY</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>  
+                    <option value="PA">PA</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>  
+                    <option value="WV">WV</option>
+                    <option value="WI">WI</option>
+                    <option value="WY">WY</option>    
+            </select> 
+         </td>
+  </tr>
+
+  <tr>
+      <td class="td1"><label for="zip">ZIP Code:</label></td>
+         <td>
+         <input type="text"
+          id="zipcode"
+          maxlength="5"
+          pattern="[0-9]{5}"
+           title="please enter your zip code"
+           required
+           placeholder="What ever zip code you want it to show"
+           /> 
+         </td>
+    </tr>
+
+    <tr>
+        <td class="td1"><label for="email">Email Address:</label></td>
+            <td>
+               <input type="email"
+                 id="email"
+                 name="email"
+                 required
+                 maxlength="30"
+                 title="Please enter your email"
+                 placeholder="name@domain.tld"
+                 /> 
+              </td>
+          </tr>
+
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+<br>
+
 <br><label for="summary">Summary:</label>  
 <input type="text"id="summary"value="Summary"><br> 
 <h4>If you have been previously diagnosed with any of the following please check all that apply:</h4>
@@ -101,12 +304,12 @@
 <label for="smallpox">Small Pox</label><br> 
 <input type="checkbox"id="tetanus"name="tetanus"value="tet"> 
 <label for="tetanus">Tetanus</label><br>
-<br><p>Gender:</p>
-<input type="radio"id="male"name="gender"value="male">
+
+
 <label for="male">Male</label>
-<input type="radio"id="female"name="gender"value="female">
+
 <label for="female">female</label>
-<input type="radio"id="other"name="gender"value="other">
+
 <label for="other">Other</label>
 <br><p>Have you been vaccinated:</p>
 <input type="radio"id="Yes"name="option"value="Yes">
@@ -130,6 +333,8 @@
 <input type="password"id="reputpassword"name=passwordtwo><br>    
 <br><input type="submit"value="Submit">
 <input type="reset"value="Start Over"> 
-</form>
+</form>          
+        
+
 </body>
 </html>
