@@ -27,14 +27,14 @@ form{
 
 h1,h2 {
    text-align: center;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Georgia', Georgia, monospace;
    font-weight: bold;
    flex-grow: 1;
 }
 
 main{
    text-align: center;
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Georgia', Times, serif;
    font-weight: normal;
    flex-grow: 1;
 }
