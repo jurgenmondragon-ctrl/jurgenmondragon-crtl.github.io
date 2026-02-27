@@ -18,7 +18,7 @@
     </head>
     <body>
         <header>
-             <table width="100%'>
+             <table width="100%">
                  <tr> 
                     <td valign="top" align="left" width="20%"> 
                          <div class="image">
@@ -30,8 +30,7 @@
                    <td>
                      <h2>Silverlake Health Clinic</h2>
                    </td>
-    
-                   <td>
+                            <!--removed td-->
                      <td valign="bottom" align="right" width="20">
                        Today's Date:<span id="today"></span>
                    </td>
@@ -95,7 +94,7 @@
              <td>
                  <input type="radio"
                   id="s1"
-                  name="sex"
+                  name="patsex"
                   value="Male"
                  />
                  Male
@@ -139,7 +138,6 @@
               minlength="11"
              maxlength="11"
               name="ssn"
-              id="ssn"
               required
              title="Please enter your social security number"
              placeholder="123-12-1234"
@@ -202,7 +200,7 @@
      <tr>
        <td><label for="states">State:</label>  </td>
          <td>
-             <select>
+             <select name="state"id="state">
                     <option selected disabled>Please Select One</option>
                     <option value="AL">AL</option>
                     <option value="AZ">AZ</option>
@@ -296,7 +294,7 @@
                  required
                  maxlength="12"
                  title="Please enter your email"
-                 placeholder="name@domain.tld"
+                 placeholder="123-456-7890"
                  /> 
               </td>
           </tr>
@@ -320,7 +318,7 @@
              />
             Yes
             <input type="radio"
-            id="va1"
+            id="va2"
             name="vac"
             value="No"
             />
@@ -338,7 +336,7 @@
              />
             Yes
             <input type="radio"
-            id="in1"
+            id="in2"
             name="ins"
             value="No"
             />
@@ -382,7 +380,7 @@
           name="notes"
           title="please write a description of the symptoms you are experiencing"
           placeholder="(Insert text here...)"
-          /></textarea>
+          ></textarea>
           <span id="description_text"></span>
         </td>
       </tr>
@@ -403,7 +401,7 @@
          </td>
        </tr>
         <tr>
-          <th colspon="4"></th>  <!-- Webpage Splitter-->
+          <th colspan="4"></th>  <!-- Webpage Splitter-->
         </tr>
 
          <!-- Patient login Information-->
@@ -478,7 +476,7 @@
 
 <!-- Footer-->
 <Footer>
-       <p id="footer"> &Silverlake Health Clinic | <a href="Paste.link.here" target="_black" rel="noopener noreferrer">Contact Us!></a></p>
+       <p id="footer"> &Silverlake Health Clinic | <a href="Paste.link.here" target="_blank" rel="noopener noreferrer">Contact Us!></a></p>
 </Footer>
 
 <script src="hw1.js"></script>
