@@ -7,7 +7,7 @@
 
 //dynamic date js code
 const d= new Date();
-let text=d.toLocalDateDString();
+let text=d.toLocaleDateString();
 document.getElementById("today").innerHTML = text;
 
 //range slider js code
