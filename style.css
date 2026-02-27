@@ -7,7 +7,7 @@
 
 header {
   width:100%;
-  background-color: rgb(250,0,0);
+  background-color: rgb(150,0,0);
 }
 
 body{
@@ -27,7 +27,7 @@ form{
 
 h1,h2 {
    text-align: center;
-   font-family: 'Courier New', Corier, monospace;
+   font-family: 'Courier New', Courier, monospace;
    font-weight: bold;
    flex-grow: 1;
 }
