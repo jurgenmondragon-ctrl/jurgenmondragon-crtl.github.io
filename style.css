@@ -32,6 +32,10 @@ h1,h2 {
    flex-grow: 1;
 }
 
+h2 {
+   font-family: Verdana, sans-serif;
+}
+
 main{
    text-align: center;
    font-family: 'Times New Roman', Times, serif;
